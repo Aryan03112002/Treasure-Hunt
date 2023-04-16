@@ -8,7 +8,7 @@ function footer() {
             <Container fluid>
             <Row >
             <Col className="bg-primary text-white text-center py-4">
-                Copyright &copy; E-cart by A.B.
+                Copyright &copy; Treasure-Hunt by A.B.
             </Col>
             </Row>
         </Container>
