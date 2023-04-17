@@ -80,7 +80,7 @@ export default function Que6() {
             placeholder="Enter your answer"
           />
         </div>
-        <button type="submit" className="btn btn-dark mt-2">
+        <button type="submit" className="btn btn-primary mt-2">
           Submit
         </button>
       </form>

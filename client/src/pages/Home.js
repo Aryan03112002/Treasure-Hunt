@@ -14,7 +14,7 @@ function Home() {
         <h3 className='text-bold text-center'  style={{color: "white"}}>Get ready to follow the clues and uncover the prize in a thrilling treasure hunt!</h3>
            {auth?.user ? 
             <button className={styles.box1 }
-              style={{maxWidth: "140px"}}
+              style={{maxWidth: "150px"}}
               onClick={(e) => {
                 e.preventDefault();
                 navigate("/dashboard");
@@ -24,7 +24,7 @@ function Home() {
             </button>
            : 
             <button className= {styles.box1}
-              style={{maxWidth: "140px"}}
+              style={{maxWidth: "150px"}}
               
               onClick={(e) => {
                 e.preventDefault();
