@@ -29,7 +29,7 @@ import {
     }
   
     return (
-      <Navbar collapseOnSelect expand="lg" bg="primary" variant="dark">
+      <Navbar collapseOnSelect expand="lg" bg="dark" variant="dark">
         <Container fluid>
           <LinkContainer to="/">
             <Navbar.Brand href="/" className="text-decoration-none">Tresure-Hunt</Navbar.Brand>

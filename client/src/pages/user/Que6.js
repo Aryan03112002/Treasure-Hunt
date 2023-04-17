@@ -75,12 +75,12 @@ export default function Que6() {
           <label htmlFor="answer"></label>
           <input
             type="text"
-            className="form-control mt-2 w-25 p-3"
+            className="form-control mt-2 w-80 p-3"
             id="answer"
             placeholder="Enter your answer"
           />
         </div>
-        <button type="submit" className="btn btn-primary mt-2">
+        <button type="submit" className="btn btn-dark mt-2">
           Submit
         </button>
       </form>
