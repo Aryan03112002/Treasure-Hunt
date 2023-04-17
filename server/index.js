@@ -1,5 +1,4 @@
 import express from "express";
-var helmet = require('helmet');
 import dotenv from "dotenv";
 import mongoose from "mongoose";
 import morgan from "morgan";
@@ -11,9 +10,15 @@ import startTimer from "./routes/timer.js";
 import cors from "cors";
 dotenv.config();
 
+import helmet from "helmet";
+
+
+
 const app = express();
 
+// helmet
 app.use(helmet());
+
 
 
 //db

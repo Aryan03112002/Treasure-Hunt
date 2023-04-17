@@ -19,6 +19,7 @@ import PageNotFoundGIF from "./images/pnf.jpg";
 import About from "./pages/About";
 import Footer from "./components/nav/footer"
 import MetaComponent from "./components/MetaComponent"
+import { HashRouter } from "react-router-dom"
 
 
 const PageNotFound = () => {
@@ -31,7 +32,7 @@ const PageNotFound = () => {
 export default function App(){
 
   return (
-    <BrowserRouter>
+    <HashRouter>
     <MetaComponent />
     <Menu />  
     <Toaster />
@@ -64,6 +65,6 @@ export default function App(){
       </Routes>
       <Footer/>
      
-    </BrowserRouter>
+    </HashRouter>
   )
 }
