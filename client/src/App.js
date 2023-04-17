@@ -18,6 +18,7 @@ import Leaderboard from "./pages/user/Leaderboard"
 import PageNotFoundGIF from "./images/pnf.jpg";
 import About from "./pages/About";
 import Footer from "./components/nav/footer"
+import MetaComponent from "./components/MetaComponent"
 
 
 const PageNotFound = () => {
@@ -31,6 +32,7 @@ export default function App(){
 
   return (
     <BrowserRouter>
+    <MetaComponent />
     <Menu />  
     <Toaster />
     

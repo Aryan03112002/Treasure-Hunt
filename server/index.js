@@ -1,4 +1,5 @@
 import express from "express";
+var helmet = require('helmet');
 import dotenv from "dotenv";
 import mongoose from "mongoose";
 import morgan from "morgan";
@@ -11,6 +12,8 @@ import cors from "cors";
 dotenv.config();
 
 const app = express();
+
+app.use(helmet());
 
 
 //db

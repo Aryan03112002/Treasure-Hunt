@@ -32,7 +32,7 @@ import {
       <Navbar collapseOnSelect expand="lg" bg="dark" variant="dark">
         <Container fluid>
           <LinkContainer to="/">
-            <Navbar.Brand href="/" className="text-decoration-none">Tresure-Hunt</Navbar.Brand>
+            <Navbar.Brand href="/" className="text-decoration-none">Treasure-Hunt</Navbar.Brand>
             {/* <Navbar.Brand href="/"> <img  src={require('./moretobuy.png')} alt="logo" border="0" width="120px" height="40px" /></Navbar.Brand> */}
           </LinkContainer>
           <Navbar.Toggle aria-controls="responsive-navbar-nav" />
