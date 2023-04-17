@@ -1,5 +1,5 @@
 import Card from "react-bootstrap/Card";
-import { useState } from "react";
+import { useState , useEffect} from "react";
 import { toast } from "react-hot-toast";
 import axios from "axios";
 import { useNavigate } from "react-router-dom";
@@ -10,6 +10,23 @@ import Button from 'react-bootstrap/Button';
 import Fade from 'react-bootstrap/Fade';
 
 export default function Que1() {
+
+  const getstartTimer = async () => {
+    try {
+      
+      const res=await axios.get(`${process.env.REACT_APP_API}/getst`);
+      console.log(res.data);
+
+    } catch (error) {
+      console.log(error);
+    }
+  };
+
+  useEffect(() => {
+    getstartTimer();
+  }, []);
+  
+
   const navigate = useNavigate();
 
   const handleSubmit = async (e) => {
