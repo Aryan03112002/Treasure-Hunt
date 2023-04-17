@@ -9,7 +9,7 @@ import getAllUsers from "./routes/allUsers.js";
 import startTimer from "./routes/timer.js";
 import cors from "cors";
 dotenv.config();
-var helmet = require('helmet');
+import helmet from "helmet";
 
 const app = express();
 
